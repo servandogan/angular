@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "text": "3das dritte",
+      "day": "1",
+      "reminder": false,
+      "id": 1
+    },
+    {
+      "text": "9das 9te",
+      "day": "2",
+      "reminder": false,
+      "id": 2
+    },
+    {
+      "text": "2das zweite",
+      "day": "3",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "1das erste",
+      "day": "4",
+      "reminder": false,
+      "id": 4
+    }
+  ]
+}

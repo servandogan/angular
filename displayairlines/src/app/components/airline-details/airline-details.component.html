@@ -1,0 +1,40 @@
+<h1>Airline Informations</h1>
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Airline</th>
+            </tr>
+          </thead>
+        <tbody>
+            <tr>
+              <th scope="row">Name</th>
+              <td>{{airline.name}}</td>
+            </tr>
+            <tr>
+                <th scope="row">Airline ID</th>
+                <td>{{airline.id}}</td>
+              </tr>
+            <tr>
+              <th scope="row">Head Quater</th>
+              <td>{{airline.head_quaters}}</td>
+            </tr>
+            <tr>
+                <th scope="row">Country</th>
+                <td>{{airline.country}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Slogan</th>
+                <td>{{airline.slogan}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Website</th>
+                <td>{{airline.website}}</td>
+              </tr>
+          </tbody>
+        
+    </table>
+    <app-paginator [passengerByAirlineId]="passengerByAirlineId"></app-paginator>
+    <a routerLink="/">Go Back</a>
+</div>

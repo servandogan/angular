@@ -1,0 +1,8 @@
+<h1>Overview Airlines</h1>
+
+<div *ngIf="showPleaseWait">Please wait ...</div>
+<ul class="list-group" *ngFor="let airline of airlines">
+  <a (click)='getPassengersByAirlinesId(airline.id)' routerLink="details" class="list-group-item list-group-item-action" >
+    <img class="icon" [src]="airline.logo"/>{{airline.name}}
+  </a>
+</ul>
